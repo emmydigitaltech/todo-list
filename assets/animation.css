@@ -1,0 +1,44 @@
+@keyframes move1 {
+    0%, 100%{
+        transform: translateX(110rem);
+        transform: scale(1);
+    }
+    50%{
+        transform: translateX(1000px);
+        transform: scale(0.95);
+        border-radius: 270px;
+    }
+}
+
+@keyframes change {
+    0%, 100%{
+        background-color: rgb(240, 248, 255);
+    }
+    10%{
+        background-color: aliceblue;
+    }
+    20%{
+        background-color: rgb(240, 255, 253);
+    }
+    30%{
+        background-color: rgb(240, 247, 255);
+    }
+    40%{
+        background-color: rgb(255, 253, 240);
+    }
+    50%{
+        background-color: rgb(240, 255, 241);
+    }
+    60%{
+        background-color: rgb(255, 240, 248);
+    }
+    70%{
+        background-color: rgb(255, 240, 240);
+    }
+    80%{
+        background-color: rgb(255, 246, 240);
+    }
+    90%{
+        background-color: rgb(241, 255, 240);
+    }
+}

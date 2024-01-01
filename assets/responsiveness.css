@@ -1,0 +1,42 @@
+@media(max-width:450px){
+
+    html{
+      font-size: 65%;
+    }
+    body{
+        padding: 5rem;
+    }
+    #container{
+        width: 250px;
+        padding: 1rem;
+    }
+    ol{
+        margin: 0 1rem;
+    }
+    #input-el{
+        width: 70%;
+    }
+    footer{
+        font-size: 1rem;
+    }
+  
+}
+
+@media(max-width:250px){
+    html{
+        font-size: 55%;
+    }
+    #container{
+        width: 180px;
+    }
+    #input-el{
+        width: 45%;
+        height: 40px;
+    }
+    #add-el{
+        height: 40px;
+    }
+    footer{
+        font-size: .8rem;
+    }
+}
